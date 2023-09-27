@@ -108,7 +108,11 @@ header{
     right: 12px;
     font-size: 1.3rem;
     color: #878787;
-    cursor: pointer;;
+    cursor: pointer;
+    transition: all 400ms linear;
+}
+.form-popup .close-btn:hover{
+    color: black;
 }
 
 
