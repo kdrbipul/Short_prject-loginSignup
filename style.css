@@ -282,6 +282,9 @@ form button:hover{
 
 
 @media (max-width:950px) {
+    .navbar{
+        padding: 10px 25px;
+    }
     .navbar :is(.menu-btn, .links .close-btn){
         display: block;
     }
@@ -307,6 +310,10 @@ form button:hover{
         display: block;
         padding-top: 60px;
         text-align: center;
+        transition: all 400ms linear;
+    }
+    .navbar .links.show-menu{
+        left: 0;
     }
     .navbar .links li a{
         color: #333;
